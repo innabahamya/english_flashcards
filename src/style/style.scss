@@ -1,0 +1,17 @@
+@import './variables.scss';
+@font-face {
+    font-family: "AverageSans";
+    src: url("../resources/fonts/AverageSans-Regular.ttf");
+    }
+    
+// @import '../components/header/header.scss';
+// @import '../components/wordCard/wordCard.scss';
+// @import '../components/wordList/wordList.scss';
+// @import '../components/homePage/homePage.scss';
+// @import '../components/footer/footer.css';
+
+* {
+    font-family: 'AverageSans';
+    margin: 0;
+    padding: 0;
+}

@@ -1,0 +1,44 @@
+@import '../../style/variables.scss';
+
+button {
+    padding: 10px 20px;
+    background-color: $button-color;
+    border-radius: 20px;
+    color: $white-color;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+  
+  button:hover {
+    background-color: $hover-color;
+  }
+  
+  button:focus {
+    outline: none;
+    box-shadow: 0 0 5px $hover-color;
+  }
+  
+ button:active {
+    transform: scale(0.95);
+  }
+
+ input {
+    padding: 10px;
+    border: 1px solid $hover-color;
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+  
+ input:hover {
+    border-color: $hover-color;
+  }
+  
+  input:focus {
+    outline: none;
+    border-color: $hover-color;
+    box-shadow: 0 0 5px $hover-color;
+  }
+  
+ input:active {
+    transform: scale(0.98);
+  }
